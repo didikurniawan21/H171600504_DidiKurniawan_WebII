@@ -3,14 +3,14 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-12">
+        <div class="col-md-8">
             <div class="card">
-                <div class="card-header text-center bg-info">Tambah Berita</div>
-             <div class="card-body">
-             	<form method="post" action="{!! route('berita.store') !!}">
-             	@include('berita.form')
+                <div class="card-header text-center bg-info">Edit Pengumuman</div>
 
-             	</form>
+             <div class="card-body">
+                {!! Form::model($Pengumuman, ['route' => ['pengumuman.update', $Pengumuman->id],'method' => 'patch']) !!}
+             	@include('pengumuman.form')
+             	{!! Form::close() !!}
             </div>
             </div>
         </div>

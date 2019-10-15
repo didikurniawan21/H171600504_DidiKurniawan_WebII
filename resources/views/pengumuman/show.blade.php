@@ -5,39 +5,33 @@
     <div class="row justify-content-center">
         <div class="col-md-10">
             <div class="card">
-                <div class="card-header">Pengumuman</div>
+                <div class="card-header text-center bg-info">Pengumuman</div>
 
                 <div class="card-body">
                     <div class="form-group row">
                          <label  class="col-md-2 col-form-label text-md-right">ID</label>
-                         <label  class="col-md-10 col-form-label text-md-left">{!! $pengumuman->id !!}</label>
+                         <label  class="col-md-10 col-form-label text-md-left">{!! $Pengumuman->id !!}</label>
                     </div>
 
                     <div class="form-group row">
                          <label  class="col-md-2 col-form-label text-md-right">Judul</label>
-                         <label  class="col-md-10 col-form-label text-md-left">{!! $pengumuman->judul !!}</label>
+                         <label  class="col-md-10 col-form-label text-md-left">{!! $Pengumuman->judul !!}</label>
                     </div>
 
                     <div class="form-group row">
                          <label  class="col-md-2 col-form-label text-md-right">Isi</label>
-                         <label  class="col-md-10 col-form-label text-md-left">{!! $pengumuman->isi !!}</label>
+                         <label  class="col-md-10 col-form-label text-md-left">{!! $Pengumuman->isi !!}</label>
                     </div>
 
                      <div class="form-group row">
-                         <label  class="col-md-2 col-form-label text-md-right">Kategori Pengumuman</label>
-                         <label  class="col-md-10 col-form-label text-md-left">{!! $pengumuman->kategori_pengumuman_id !!}
-                         </label>
-                    </div>
-
-                    <div class="form-group row">
-                         <label  class="col-md-2 col-form-label text-md-right">Users Id</label>
-                         <label  class="col-md-10 col-form-label text-md-left">{!! $pengumuman->users_id !!}
+                         <label  class="col-md-2 col-form-label text-md-right">User Id</label>
+                         <label  class="col-md-10 col-form-label text-md-left">{!! $Pengumuman->users_id !!}
                          </label>
                     </div>
 
                     <div class="form-group row">
                          <label  class="col-md-2 col-form-label text-md-right">Create</label>
-                         <label  class="col-md-10 col-form-label text-md-left">{!! $pengumuman->created_at->format('d/m/Y H:i:s') !!}</label>
+                         <label  class="col-md-10 col-form-label text-md-left">{!! $Pengumuman->created_at->format('d/m/Y H:i:s') !!}</label>
                     </div>
 
 

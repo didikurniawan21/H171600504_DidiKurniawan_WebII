@@ -82,7 +82,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Welcome Laravel
+                    Laravel Ceddung
                 </div>
 
                 <div class="links">
